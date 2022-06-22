@@ -1,0 +1,27 @@
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Socket demo.exe.config
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Socket demo.exe
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Socket demo.pdb
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\MainWindow.g.cs
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\App.g.cs
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo_MarkupCompile.cache
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo_MarkupCompile.lref
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\MainWindow.baml
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.g.resources
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket_demo.Properties.Resources.resources
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.csproj.GenerateResource.cache
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.csproj.CoreCompileInputs.cache
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.exe
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.pdb
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\websocket-sharp.dll
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\websocket-sharp.xml
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\RdlCompile.cache
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\RdlCompile.compiled
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Visor.g.cs
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Visor.baml
+C:\Users\Roberto\source\repos\Socket demo\Socket demo\obj\Debug\Socket demo.csproj.AssemblyReference.cache

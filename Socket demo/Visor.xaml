@@ -1,0 +1,16 @@
+﻿<Window x:Class="Socket_demo.Visor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Socket_demo"
+        mc:Ignorable="d"
+        Title="Visor" Height="251.097" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="Manual" Loaded="Window_Loaded" SizeToContent="WidthAndHeight" ShowInTaskbar="False">
+    <Grid>
+        <Label x:Name="label" Content="Sucursal:" HorizontalAlignment="Left" Margin="15,25,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbSuc" Content="Label" Margin="15,45,15,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Dubai" FontSize="24"/>
+        <Label x:Name="label2" Content="Ultimo turno:" HorizontalAlignment="Left" Margin="15,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbTurn" Content="L001" Margin="15,130,15,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Dubai" FontSize="48"/>
+
+    </Grid>
+</Window>
