@@ -21,6 +21,7 @@ namespace Socket_demo
     /// </summary>
     public partial class MainWindow : Window
     {
+        string host = "192.168.1.14";
         WebSocket ws;
         string print;
         string messageTicket;
@@ -108,8 +109,8 @@ namespace Socket_demo
         public void getSucursals() {
             try
             {
-                string host = "172.25.200.8";
-                string url = $@"http://{host}:4000/api/sucursal";
+                //string host = "192.168.1.14";
+                string url = $@"http://{this.host}:4000/api/sucursal";
                 string json = string.Empty;
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Headers["me"] = "";
@@ -143,13 +144,13 @@ namespace Socket_demo
                 //192.168.1.14:4000
                 //Moreira
                 //10.0.0.50
-                string host = "172.25.200.8";
+                //string host = "192.168.1.14";
                 //string host = "localhost";
                 //Angelópolis
                 //string sucursal = Socket_demo.Properties.Settings.Default.Sucursal != string.Empty ? Socket_demo.Properties.Settings.Default.Sucursal : textBox.Text;
                 string sucursal = Socket_demo.Properties.Settings.Default.Sucursal != string.Empty ? Socket_demo.Properties.Settings.Default.Sucursal : this.comboBox.SelectedValue.ToString();
                 string html = string.Empty;
-                string url = $@"http://{host}:4000/api/sucursal/{sucursal}";
+                string url = $@"http://{this.host}:4000/api/sucursal/{sucursal}";
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Headers["me"] = "";
@@ -171,7 +172,7 @@ namespace Socket_demo
                 }
 
                 //this.ws = new WebSocket(url: "ws://192.168.1.14:7000");
-                this.ws = new WebSocket(url: $"ws://{host}:7000");
+                this.ws = new WebSocket(url: $"ws://{this.host}:7000");
                 this.ws.OnOpen += Ws_OnOpen;
                 this.ws.OnMessage += Ws_OnMessage;
                 this.ws.OnError += Ws_OnError;
