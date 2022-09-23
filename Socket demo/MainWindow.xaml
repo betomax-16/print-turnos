@@ -6,10 +6,10 @@
         xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms"
         xmlns:local="clr-namespace:Socket_demo"
         mc:Ignorable="d"
-        Title="TicketsPrint" Height="197.975" Width="286.79" Closing="Window_Closing" StateChanged="Window_StateChanged" Topmost="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Candara">
+        Title="TicketsPrint" Height="358.975" Width="286.79" Closing="Window_Closing" Topmost="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontFamily="Candara">
 
-    
-    
+
+
     <Grid>
         <Button x:Name="button" Content="Aceptar" HorizontalAlignment="Right" Margin="0,0,15,15" VerticalAlignment="Bottom" Width="75" Click="button_Click" Height="25" >
             <Button.Style>
@@ -36,8 +36,38 @@
             </Button.Style>
         </Button>
         <!--<TextBox x:Name="textBox" Height="24" Margin="15,0" TextWrapping="Wrap" VerticalAlignment="Center" Padding="0" FontFamily="Candara" FontSize="18"/>-->
-        <Label x:Name="label" Content="Sucursal" HorizontalAlignment="Left" Margin="15,0,0,55" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" FontFamily="Candara"/>
-        <CheckBox x:Name="checkBox" Content="Impresión en escritorio?" HorizontalAlignment="Left" Margin="15,129,0,0" VerticalAlignment="Top" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
-        <ComboBox x:Name="comboBox" Height="24" Margin="15,0" VerticalAlignment="Center" Padding="0" FontFamily="Candara" FontSize="18" />        
+        <Label x:Name="label" Content="Sucursal" HorizontalAlignment="Left" Margin="15,148,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Candara"/>
+        <CheckBox x:Name="checkBox" Content="Impresión en escritorio?" HorizontalAlignment="Left" Margin="15,300,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" Height="24" Margin="15,178,15,0" VerticalAlignment="Top" Padding="0" FontFamily="Candara" FontSize="18" />
+        <Label x:Name="label_Copy" Content="Host" HorizontalAlignment="Left" Margin="15,17,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Candara"/>
+        <TextBox x:Name="txtHost" Height="24" Margin="15,48,70,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" KeyUp="txtHost_KeyUp"/>
+        <Label x:Name="label_Copy1" Content="Impresora" HorizontalAlignment="Left" Margin="15,206,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Candara"/>
+        <ComboBox x:Name="cbPrint" Height="24" Margin="15,236,15,0" VerticalAlignment="Top" Padding="0" FontFamily="Candara" FontSize="18" />
+        <Button x:Name="button1" Content="Ok" HorizontalAlignment="Left" Margin="216,48,0,0" VerticalAlignment="Top" Width="50" Height="24" FontSize="18" Click="button1_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FFC2CB6B"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="14"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="0,0,0,0" CornerRadius="3">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Background" Value="#FFA8DE71"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label x:Name="label_Copy2" Content="Marca" HorizontalAlignment="Left" Margin="15,88,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Candara"/>
+        <ComboBox x:Name="cb_brand" Height="24" Margin="15,118,15,0" VerticalAlignment="Top" Padding="0" FontFamily="Candara" FontSize="18" SelectionChanged="cb_brand_SelectionChanged" />
     </Grid>
 </Window>

@@ -99,6 +99,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FF9F74F6A4AD4F3BB24123C449A22093"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A073E411A0C34D8C81F75694C347A07D"
         "MsmSig" = "8:_UNDEFINED"
@@ -532,6 +538,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FF9F74F6A4AD4F3BB24123C449A22093"
+            {
+            "SourcePath" = "8:..\\Socket demo\\Report2.rdlc"
+            "TargetName" = "8:Report2.rdlc"
+            "Tag" = "8:"
+            "Folder" = "8:_3FE1C21D587E488D902A9BDC6358B5FD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }

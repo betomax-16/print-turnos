@@ -82,19 +82,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BodyConfigSucursal.cs" />
-    <Compile Include="ConfigSucursal.cs" />
-    <Compile Include="ConfigSucursales.cs" />
-    <Compile Include="ResponseObj.cs" />
+    <Compile Include="Models\BodyResponse.cs" />
+    <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\Brand.cs" />
+    <Compile Include="Models\ResponseWrapperSocket.cs" />
+    <Compile Include="Models\ResponseWreapper.cs" />
+    <Compile Include="Models\Turn.cs" />
     <Compile Include="SingleInstance.cs" />
-    <Compile Include="Sucursal.cs" />
-    <Compile Include="Traza.cs" />
-    <Compile Include="Turno.cs" />
     <Compile Include="User32API.cs" />
     <Compile Include="Visor.xaml.cs">
       <DependentUpon>Visor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WrapperTurn.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -132,6 +130,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -147,5 +146,6 @@
   <ItemGroup>
     <None Include="Resources\ticket.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

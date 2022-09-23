@@ -46,5 +46,53 @@ namespace Socket_demo.Properties {
                 this["ViewDesktop"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string print {
+            get {
+                return ((string)(this["print"]));
+            }
+            set {
+                this["print"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string host {
+            get {
+                return ((string)(this["host"]));
+            }
+            set {
+                this["host"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Brand {
+            get {
+                return ((string)(this["Brand"]));
+            }
+            set {
+                this["Brand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string BranchName {
+            get {
+                return ((string)(this["BranchName"]));
+            }
+            set {
+                this["BranchName"] = value;
+            }
+        }
     }
 }

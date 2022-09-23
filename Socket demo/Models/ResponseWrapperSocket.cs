@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Socket_demo
+namespace Socket_demo.Models
 {
-    public class WrapperTurn
+    public class ResponseWrapperSocket
     {
-        public Turno turn { get; set; }
-        public Traza trace { get; set; }
+        public string info { get; set; }
     }
 }
