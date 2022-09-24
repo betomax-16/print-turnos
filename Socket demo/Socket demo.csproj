@@ -90,6 +90,8 @@
     <Compile Include="Models\Turn.cs" />
     <Compile Include="SingleInstance.cs" />
     <Compile Include="User32API.cs" />
+    <Compile Include="Utils\NetworkStatus.cs" />
+    <Compile Include="Utils\NetworkStatusChangedArgs.cs" />
     <Compile Include="Visor.xaml.cs">
       <DependentUpon>Visor.xaml</DependentUpon>
     </Compile>

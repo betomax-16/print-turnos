@@ -11,6 +11,9 @@ using WebSocketSharp;
 using System.Drawing.Printing;
 using System.Collections;
 using Socket_demo.Models;
+using System.Net.NetworkInformation;
+using Microsoft.Win32;
+using Socket_demo.Utils;
 
 namespace Socket_demo
 {
@@ -35,6 +38,8 @@ namespace Socket_demo
         {
             InitializeComponent();
             DataContext = this;
+            NetworkStatus.AvailabilityChanged += new NetworkStatusChangedHandler(DoAvailabilityChanged);
+
             //cambiar de:
             //xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition"
             //a:
@@ -82,13 +87,22 @@ namespace Socket_demo
                 this.init();
             }
         }
-        
+
         //private void notifyIcon_Click(object sender, System.Windows.Forms.MouseEventArgs e) {
         //    if(e.Button == MouseButtons.Left)
         //    {
-                
+
         //    }
         //}
+
+        private void DoAvailabilityChanged(object sender, NetworkStatusChangedArgs e)
+        {
+            //if (NetworkStatus.IsAvailable && this.ws.Ping())
+            //{
+            //    this.ws.Connect();
+            //}
+            this.ws.Ping();
+        }
 
         private void Stop(object sender, EventArgs e)
         {
